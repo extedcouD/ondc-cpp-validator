@@ -53,7 +53,7 @@ type: ARRAY >> // further discussion params can be [AllItems,AnyItems,OnlyOneIte
         validation: test
     }
 
-### FINALLY IN BUILD.YAML ADD A X-TESTS section with all the required validations objects which can be easily integrated with the dev-guide-editor
+### FINALLY IN BUILD.YAML ADD A X-TESTS section with all the required validations objects which can be easily integrated with the dev-guide-editor and which can auto generate tests for  attributes and enums with logic
 
 ```
 x-tests:
