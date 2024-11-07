@@ -21,7 +21,7 @@ type: REGEX >> value: "any regex" (enum validations will happen through regex)
 
 type: MATCH >> value: dot.seperated.path or a constant value >> params: [lesser,equal,number,timestamp] // futher discussion
 
-type: ARRAY >> // further discussion params can be [AnyOne,All,Any,]
+type: ARRAY >> // further discussion params can be [AllItems,AnyItems,OnlyOneItem]
 
 ## Two properties:
 
