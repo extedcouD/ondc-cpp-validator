@@ -71,3 +71,7 @@ x-tests:
 ### PERFORMANCE:
     1. Will be using C++
     2. can use hashmaps and memorization to further optmize repeated checks
+
+### MORE POSSIBILITIES 
+
+    - Flag some validations as buisness and ignore them while c++ compilation and generate json-rule-engine from them
