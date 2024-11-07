@@ -67,3 +67,7 @@ x-tests:
     on_search:
         - ...
 ```
+
+### PERFORMANCE:
+    1. Will be using C++
+    2. can use hashmaps and memorization to further optmize repeated checks
