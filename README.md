@@ -12,7 +12,7 @@ its a JSON object that can generate a c++ function which returns true or false
         path: json.path. sperated.with.dot    {AUTO-CORRECT INPUT}
         type: EXISTANCE | REGEX | MATCH | ARRAY {DROPDOWN}
         params?: []  {COINDTIONALLY RENDEREND FIELD}
-        value: any_string {normal input field}
+        value: any_string {normal input field or a conditional dorpdown}
     }
 
 type: EXISTANCE >> value: EXISTS | NOT-EXISTS
