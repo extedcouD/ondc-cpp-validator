@@ -32,7 +32,7 @@ type: ARRAY >> // further discussion params can be [AllItems,AnyItems,OnlyOneIte
 
     {
         conditions?: [TEST_OBJECTS] // optional object
-        validation: TEST_OBJECT  // Still not sure wheter array or not
+        validation: TEST_OBJECT  
     }
 
 #### simulation of AND
