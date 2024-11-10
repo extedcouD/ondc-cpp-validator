@@ -10,6 +10,7 @@ defination:
     _CONTEXT_: "dot.seprated.object which determines the scope of test"
     any-variable-name: "path.to.property OR fixed array OR boolean Map"
     _RETURN_: "a boolean operation which can use difined variable names and its properties"
+    _CONTINUE_ : similar to return but skip test if true
 }
 
 ```
