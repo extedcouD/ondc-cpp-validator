@@ -51,7 +51,8 @@ INCS_Debug := \
 	-I/Users/rudranshsinghal/Library/Caches/node-gyp/22.7.0/deps/openssl/openssl/include \
 	-I/Users/rudranshsinghal/Library/Caches/node-gyp/22.7.0/deps/uv/include \
 	-I/Users/rudranshsinghal/Library/Caches/node-gyp/22.7.0/deps/zlib \
-	-I/Users/rudranshsinghal/Library/Caches/node-gyp/22.7.0/deps/v8/include
+	-I/Users/rudranshsinghal/Library/Caches/node-gyp/22.7.0/deps/v8/include \
+	-I$(srcdir)/cpp/includes/rapidjson
 
 DEFS_Release := \
 	'-DNODE_GYP_MODULE_NAME=hello' \
@@ -101,10 +102,11 @@ INCS_Release := \
 	-I/Users/rudranshsinghal/Library/Caches/node-gyp/22.7.0/deps/openssl/openssl/include \
 	-I/Users/rudranshsinghal/Library/Caches/node-gyp/22.7.0/deps/uv/include \
 	-I/Users/rudranshsinghal/Library/Caches/node-gyp/22.7.0/deps/zlib \
-	-I/Users/rudranshsinghal/Library/Caches/node-gyp/22.7.0/deps/v8/include
+	-I/Users/rudranshsinghal/Library/Caches/node-gyp/22.7.0/deps/v8/include \
+	-I$(srcdir)/cpp/includes/rapidjson
 
 OBJS := \
-	$(obj).target/$(TARGET)/hello.o
+	$(obj).target/$(TARGET)/cpp/hello.o
 
 # Add to the list of files we specially track dependencies for.
 all_deps += $(OBJS)
