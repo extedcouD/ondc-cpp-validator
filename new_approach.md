@@ -31,7 +31,7 @@ and it always returns a one-dimension array_
 ### Example of _RETURN_:
 
 ```
-1. "_RETURN_" : A.ALL in B
+1. "_RETURN_" : A.ALL IN B
 2. "_RETURN_" : B.ANY FOLLOW re(`regex`)
 3. "_RETURN_" : A IS B && B.ALL in C
 5. "_RETURN_" : D.ARE_UNIQUE
@@ -46,7 +46,7 @@ const checks = {
       _NAME_: "requiredContext",
       domain: "context.domain",
       enum: ["ONDC:RET11"],
-      _RETURN_: "domain.ALL in enum",
+      _RETURN_: "domain.ALL IN enum",
     },
     {
       _NAME_: "requiredTransactionID",
